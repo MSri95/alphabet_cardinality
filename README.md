@@ -22,7 +22,7 @@ julia growing_alpha_par.jl repetition type-of-random-adaptive-walk landscape
 - type-of-random-adaptive-walk: greedy or equal
 - landscape: landscape file: map_ParE2.tsv or map_ParE3.tsv
 
-  ## 3. For analysing the GB1 landscape:
+## 3. For analysing the GB1 landscape:
 
 julia growing_alpha_2.jl repetition type-of-random-adaptive-walk landscape
 
