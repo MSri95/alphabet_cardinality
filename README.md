@@ -13,6 +13,8 @@ julia growing_alpha_RMF.jl type-of-random-adaptive-walk MF-landscape roughness-p
   - seed: specifies the seed of the random number generator
   - repetition: specifies repetition number of the alphabet expansion (not the total number of repetitions)
 
+For analysing L=3 RMF landscapes, use script: growing_alpha_RMF_L=3.jl
+
 ## 2. For analysing the ParD-ParE landscapes:
 
 julia growing_alpha_par.jl repetition type-of-random-adaptive-walk landscape
@@ -21,6 +23,8 @@ julia growing_alpha_par.jl repetition type-of-random-adaptive-walk landscape
 - repetition: specifies repetition number of the alphabet expansion (not the total number of repetitions)
 - type-of-random-adaptive-walk: greedy or equal
 - landscape: landscape file: map_ParE2.tsv or map_ParE3.tsv
+
+For analysing ParD-ParE landscapes with the number of peaks preserved, use script: growing_alpha_par_samepeaks.jl
 
 ## 3. For analysing the GB1 landscape:
 
