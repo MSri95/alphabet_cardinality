@@ -2,6 +2,8 @@
 
 Julia scripts for the topographical analysis and evolutionary simulations in the paper "Alphabet cardinality and adaptive evolution"
 
+Directory "scripts" contains code to enumerate the number of accessible paths 
+
 ## 1. For analysing the RMF landscapes:
 
 julia growing_alpha_RMF.jl type-of-random-adaptive-walk MF-landscape roughness-parameter seed repetition 
@@ -36,7 +38,7 @@ julia growing_alpha_2.jl repetition type-of-random-adaptive-walk landscape
 - landscape: landscape file: map_GB1.tsv
 
 
-  Directory scripts contains code to enumerate the number of accessible paths 
+
   
 
 
