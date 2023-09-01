@@ -35,7 +35,8 @@ julia growing_alpha_2.jl repetition type-of-random-adaptive-walk landscape
 - type-of-random-adaptive-walk: greedy or equal
 - landscape: landscape file: map_GB1.tsv
 
-  
+
+  Directory scripts contains code to enumerate the number of accessible paths 
   
 
 
